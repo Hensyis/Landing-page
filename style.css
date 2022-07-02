@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header .link{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 18px;
+
+}
