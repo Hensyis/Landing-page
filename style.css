@@ -52,6 +52,7 @@ ul{
     color: #E5E7EB;
     padding: 5px 10px;
     border-radius: 10px;
+    border-style: none;
 }
 
 .galerie-left > p{
@@ -79,15 +80,98 @@ ul{
 
 .info .image{
     border-radius: 10px;
-    height: 100px;
-    weight: 100px;
-    border: #3b82f6 solid 2px;
+    height: 10vw;
+    width: 10vw;
+    border: 2px solid #3b82f6;
     flex: 1 0 auto;
+}
+
+.info p{
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
 }
 .info{
     display: flex;
-    gap: 30px;
+    gap: 5vw;
     
+}
+
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote > p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 150px 100px 0px 100px;
+    margin: 0px;
+}
+
+.quote > .auteur{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    padding:0px 0px 150px 0px;
+    margin-right: 200px;
+
+}
+
+.call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 50px 100px;
+    background-color: #3b82f6;
+    margin: 100px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.call .titre{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call > *{
+    margin:0px;
+}
+
+.call > button{
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #3b82f6;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    width: 150px;
+    height: 40px;
+}
+
+.call-left > p{
+    margin: 0px;
+}
+
+#sous-titre1{
+    color: #c6c6c6;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 
